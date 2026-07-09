@@ -1,1 +1,15 @@
+# Dataset
+data/*.csv
 
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
