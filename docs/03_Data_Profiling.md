@@ -34,6 +34,18 @@ Initial data profiling was conducted to understand the dataset structure and eva
 - Orders is the central fact table linking customers, products, payments, and reviews.
 - Customer, Product, Seller, and Payment tables provide supporting dimensions for business analysis.
 
+Customer
+      │
+      │
+Orders
+ ├────Payment
+ ├────Review
+ ├────Order Items
+             │
+         Products
+             │
+          Sellers
+
 ### Data Quality
 
 - Overall data quality is good with no duplicate records in the core business tables.
@@ -51,3 +63,7 @@ The dataset supports analysis in:
 - Customer Satisfaction
 - Delivery Performance
 - Revenue Analytics
+
+## Next Steps
+
+The next phase is to identify key business questions and translate them into analytical tasks using SQL, Python, Power BI, and AI-assisted business insights.
