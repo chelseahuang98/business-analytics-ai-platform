@@ -13,3 +13,7 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# Local DuckDB database
+database/*.duckdb
+database/*.wal
